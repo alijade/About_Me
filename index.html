@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabs</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <section class="section">
+    <div class="title">
+      <h2>about me - alija delić</h2>
+      <p> Oslobođenja A4, Živinice, 75270 , BiH </p>
+      <p> +387 62 061 525 </p>
+      <p> alijadelic100@gmail.com </p>
+    </div>
+
+    <div class="about-center section-center">
+      <article class="about-img">
+        <img src="./pic.PNG" alt="picture" />
+      </article>
+      <article class="about">
+        <!-- btn container -->
+        <div class="btn-container">
+          <button class="tab-btn active" data-id="history">About</button>
+          <button class="tab-btn" data-id="vision">Skills</button>
+          <button class="tab-btn" data-id="goals">Education</button>
+        </div>
+        <div class="about-content">
+          <!-- single item -->
+          <div class="content active" id="history">
+            <!-- <h4>About</h4> -->
+            <p>
+              I’m a 24 years old bachelor of electrical engineering looking for a career as web/software
+              developer. As a developer I like to try and learn new technologies in my constant strive to
+              advance.
+            </p>
+            <p>I can help doing tasks, compromise, and fulfill any role on the team that is needed. I am flexible in
+              working independently or on a team, as needed by the task at hand.
+              Also I’m looking forward to working in a team setting because I can relate to others well, be a
+              good listener, have a professional demeanor, and understand what it takes to get the job done.
+            </p>
+            <p>Among other activities, I am active in my community through a number of youth volunteer
+              associations where I gained first-hand experience in writing, applying and implementing projects
+              that are valuable to my community.
+            </p>
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+          <div class="content" id="vision">
+            <!-- <h4>Skills</h4> -->
+            <p> I have basic knowledge in following: </p>
+            <ul>
+              <li>● HTML5, CSS</li>
+              <li> ● JavaScript </li>
+              <li>● PHP</li>
+              <li>● Bootstrap</li>
+              <li>● Git</li>
+              <li>● MySQL</li>
+              <li> ● ReactJS</li>
+              <li>● NodeJS</li>
+            </ul>
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+          <div class="content" id="goals">
+            <!-- <h4>Education</h4> -->
+            <p> ● High School (2016)
+              Electrotechnical school, Živinice, Bosnia and Herzegovina </p>
+
+            <p> ● College (2021)
+              Bachelor of electrical engineering (240 ECTS)
+              Faculty of Electrical Engineering, Tuzla, Bosnia and Herzegovina </p>
+          </div>
+          <!-- end of single item -->
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
